@@ -2,7 +2,7 @@
 
 Self-Driving Mini Car — Lane Detection, Obstacle Avoidance and Traffic Sign Recognition.
 
-- [Download the PowerPoint (2.6 MB)](https://github.com/parthsurve2004-svg/model-car-capstone/raw/refs/heads/downloads/final-presentation/Final_Presentation.pptx)
+- [Download the PowerPoint (4.3 MB; fixed-layout version)](https://github.com/parthsurve2004-svg/model-car-capstone/raw/refs/heads/downloads/final-presentation/Final_Presentation.pptx)
 - [Open the PDF preview](Final_Presentation.pdf)
 - [Open the examiner Q&A guide (30 questions)](Viva_Guide.pdf)
 
@@ -13,3 +13,5 @@ The traffic-sign extension is separate from Krishna's repository main. Synthetic
 This branch contains presentation downloads only. The main branch and project code are unchanged by this upload.
 
 File integrity hashes are provided in `checksums.json`.
+
+Compatibility update: the PowerPoint now uses fixed slide images with speaker notes, without custom animations. Individual slide text is not editable. For a ZIP containing only the presentation, use https://codeload.github.com/parthsurve2004-svg/model-car-capstone/zip/refs/heads/downloads/presentation-stable .
