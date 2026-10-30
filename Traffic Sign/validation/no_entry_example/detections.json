@@ -1,0 +1,28 @@
+{
+  "model": "/workspace/model-car-capstone/Traffic Sign/models/traffic_signs_ncnn_model",
+  "source": "printable_cards/no_entry.png",
+  "prediction_rate_limit_hz": 4.0,
+  "frames": [
+    {
+      "frame": 0,
+      "timestamp_seconds": 0.0,
+      "fresh_prediction": true,
+      "detections": [
+        {
+          "class_name": "no_entry",
+          "confidence": 0.9999935626983643,
+          "bbox": [
+            98.9501953125,
+            87.2060546875,
+            925.6316528320312,
+            935.4862060546875
+          ],
+          "type": "traffic_sign",
+          "height_frac": 0.828398585319519,
+          "bearing_deg": 0.01640962317072232,
+          "actionable": true
+        }
+      ]
+    }
+  ]
+}

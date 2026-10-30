@@ -1,0 +1,23 @@
+description: Ultralytics YOLOv10n model trained on /workspace/traffic-sign-training/dataset/dataset.yaml
+author: Ultralytics
+date: '2026-10-30T08:32:51.571467+00:00'
+version: 8.4.193
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: v10Detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: stop
+  1: no_entry
+  2: turn_left
+  3: turn_right
+args:
+  batch: 1
+  quantize: 16
+channels: 3
+end2end: false

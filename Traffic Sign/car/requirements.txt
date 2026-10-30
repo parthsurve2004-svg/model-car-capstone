@@ -1,0 +1,22 @@
+# Raspberry Pi 5 — Model Car Runtime Dependencies
+# Install with: pip install -r requirements.txt
+#
+# NOTE: On Pi 5 (aarch64), install PyTorch ARM wheel first if not already present:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+# Camera capture (Raspberry Pi official CSI camera library)
+# picamera2 is typically installed via apt: sudo apt install python3-picamera2
+picamera2>=0.3.0; platform_machine=="aarch64"
+
+# NCNN backend & YOLO inference
+ultralytics>=8.2.0
+ncnn>=1.0.20230517
+numpy>=1.24.0
+opencv-python-headless>=4.8.0
+
+# Serial communication with Arduino Uno (PROTOCOL.md)
+pyserial>=3.5
+
+# Hardware interfaces (GPIO / I2C)
+# gpiod / RPi.GPIO / smbus2
+smbus2>=0.4.3

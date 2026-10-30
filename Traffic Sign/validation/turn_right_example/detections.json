@@ -1,0 +1,28 @@
+{
+  "model": "/workspace/model-car-capstone/Traffic Sign/models/traffic_signs_ncnn_model",
+  "source": "printable_cards/turn_right.png",
+  "prediction_rate_limit_hz": 4.0,
+  "frames": [
+    {
+      "frame": 0,
+      "timestamp_seconds": 0.0,
+      "fresh_prediction": true,
+      "detections": [
+        {
+          "class_name": "turn_right",
+          "confidence": 0.999879002571106,
+          "bbox": [
+            99.4957046508789,
+            92.44111633300781,
+            931.7978515625,
+            938.53369140625
+          ],
+          "type": "traffic_sign",
+          "height_frac": 0.8262622803449631,
+          "bearing_deg": 0.20569627873200538,
+          "actionable": true
+        }
+      ]
+    }
+  ]
+}

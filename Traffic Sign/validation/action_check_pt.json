@@ -1,0 +1,328 @@
+{
+  "model": "/workspace/traffic-sign-training/runs/four_signs/weights/best.pt",
+  "confidence_threshold": 0.6,
+  "scope": "Actual trained-model inference on generated printable cards followed by the vehicle policy with mocked motor commands and simulated clear sensors. This is not a physical-camera or motor test.",
+  "passed": true,
+  "cases": [
+    {
+      "expected_class": "stop",
+      "image": "/workspace/model-car-capstone/Traffic Sign/printable_cards/stop.png",
+      "observations": [
+        {
+          "time_seconds": 0.0,
+          "predictions": [
+            {
+              "class_name": "stop",
+              "confidence": 0.998450756072998,
+              "bbox": [
+                103.5741195678711,
+                90.9374008178711,
+                924.0540771484375,
+                928.2911376953125
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "Waiting for traffic signs",
+          "decision_override": null
+        },
+        {
+          "time_seconds": 0.3,
+          "predictions": [
+            {
+              "class_name": "stop",
+              "confidence": 0.998450756072998,
+              "bbox": [
+                103.5741195678711,
+                90.9374008178711,
+                924.0540771484375,
+                928.2911376953125
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "Waiting for traffic signs",
+          "decision_override": null
+        },
+        {
+          "time_seconds": 0.6,
+          "predictions": [
+            {
+              "class_name": "stop",
+              "confidence": 0.998450756072998,
+              "bbox": [
+                103.5741195678711,
+                90.9374008178711,
+                924.0540771484375,
+                928.2911376953125
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "STOP sign detected - stopped",
+          "decision_override": "STOP sign detected - stopped"
+        }
+      ],
+      "commands": [
+        {
+          "command": "STOP"
+        }
+      ],
+      "passed": true,
+      "policy": {
+        "enabled": true,
+        "status": "STOP sign detected - stopped",
+        "fault": null,
+        "latest_sign": "stop",
+        "bearing_deg": 0.10232442913936461,
+        "height_frac": 0.8177282586693764,
+        "turn_state": "idle",
+        "hold": "STOP sign dwell",
+        "pending_turn": null,
+        "no_entry": false,
+        "stop_remaining": 3.0
+      }
+    },
+    {
+      "expected_class": "no_entry",
+      "image": "/workspace/model-car-capstone/Traffic Sign/printable_cards/no_entry.png",
+      "observations": [
+        {
+          "time_seconds": 0.0,
+          "predictions": [
+            {
+              "class_name": "no_entry",
+              "confidence": 0.9999934434890747,
+              "bbox": [
+                98.99824523925781,
+                87.2303695678711,
+                925.6251831054688,
+                935.50341796875
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "Waiting for traffic signs",
+          "decision_override": null
+        },
+        {
+          "time_seconds": 0.3,
+          "predictions": [
+            {
+              "class_name": "no_entry",
+              "confidence": 0.9999934434890747,
+              "bbox": [
+                98.99824523925781,
+                87.2303695678711,
+                925.6251831054688,
+                935.50341796875
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "Waiting for traffic signs",
+          "decision_override": null
+        },
+        {
+          "time_seconds": 0.6,
+          "predictions": [
+            {
+              "class_name": "no_entry",
+              "confidence": 0.9999934434890747,
+              "bbox": [
+                98.99824523925781,
+                87.2303695678711,
+                925.6251831054688,
+                935.50341796875
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "No Entry detected - stopped",
+          "decision_override": "No Entry detected - stopped"
+        }
+      ],
+      "commands": [
+        {
+          "command": "STOP"
+        }
+      ],
+      "passed": true,
+      "policy": {
+        "enabled": true,
+        "status": "No Entry detected - stopped",
+        "fault": null,
+        "latest_sign": "no_entry",
+        "bearing_deg": 0.01758229233118057,
+        "height_frac": 0.8283916488289833,
+        "turn_state": "idle",
+        "hold": "NO_ENTRY (operator reset required)",
+        "pending_turn": null,
+        "no_entry": true,
+        "stop_remaining": 0.0
+      }
+    },
+    {
+      "expected_class": "turn_left",
+      "image": "/workspace/model-car-capstone/Traffic Sign/printable_cards/turn_left.png",
+      "observations": [
+        {
+          "time_seconds": 0.0,
+          "predictions": [
+            {
+              "class_name": "turn_left",
+              "confidence": 0.9994910955429077,
+              "bbox": [
+                102.74072265625,
+                79.69287109375,
+                925.2092895507812,
+                941.205078125
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "Waiting for traffic signs",
+          "decision_override": null
+        },
+        {
+          "time_seconds": 0.3,
+          "predictions": [
+            {
+              "class_name": "turn_left",
+              "confidence": 0.9994910955429077,
+              "bbox": [
+                102.74072265625,
+                79.69287109375,
+                925.2092895507812,
+                941.205078125
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "Waiting for traffic signs",
+          "decision_override": null
+        },
+        {
+          "time_seconds": 0.6,
+          "predictions": [
+            {
+              "class_name": "turn_left",
+              "confidence": 0.9994910955429077,
+              "bbox": [
+                102.74072265625,
+                79.69287109375,
+                925.2092895507812,
+                941.205078125
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "Left sign detected - taking left",
+          "decision_override": "Left sign detected - taking left"
+        }
+      ],
+      "commands": [
+        {
+          "command": "TURN",
+          "angle": -90,
+          "speed": 210
+        }
+      ],
+      "passed": true,
+      "policy": {
+        "enabled": true,
+        "status": "Left sign detected - taking left",
+        "fault": null,
+        "latest_sign": "turn_left",
+        "bearing_deg": 0.11140042731210269,
+        "height_frac": 0.8413205146789551,
+        "turn_state": "turning",
+        "hold": null,
+        "pending_turn": null,
+        "no_entry": false,
+        "stop_remaining": 0.0
+      }
+    },
+    {
+      "expected_class": "turn_right",
+      "image": "/workspace/model-car-capstone/Traffic Sign/printable_cards/turn_right.png",
+      "observations": [
+        {
+          "time_seconds": 0.0,
+          "predictions": [
+            {
+              "class_name": "turn_right",
+              "confidence": 0.9998793601989746,
+              "bbox": [
+                99.5293960571289,
+                92.4532241821289,
+                931.7933349609375,
+                938.55712890625
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "Waiting for traffic signs",
+          "decision_override": null
+        },
+        {
+          "time_seconds": 0.3,
+          "predictions": [
+            {
+              "class_name": "turn_right",
+              "confidence": 0.9998793601989746,
+              "bbox": [
+                99.5293960571289,
+                92.4532241821289,
+                931.7933349609375,
+                938.55712890625
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "Waiting for traffic signs",
+          "decision_override": null
+        },
+        {
+          "time_seconds": 0.6,
+          "predictions": [
+            {
+              "class_name": "turn_right",
+              "confidence": 0.9998793601989746,
+              "bbox": [
+                99.5293960571289,
+                92.4532241821289,
+                931.7933349609375,
+                938.55712890625
+              ],
+              "type": "traffic_sign"
+            }
+          ],
+          "status": "Right sign detected - taking right",
+          "decision_override": "Right sign detected - taking right"
+        }
+      ],
+      "commands": [
+        {
+          "command": "TURN",
+          "angle": 90,
+          "speed": 210
+        }
+      ],
+      "passed": true,
+      "policy": {
+        "enabled": true,
+        "status": "Right sign detected - taking right",
+        "fault": null,
+        "latest_sign": "turn_right",
+        "bearing_deg": 0.2065190730873548,
+        "height_frac": 0.8262733444571495,
+        "turn_state": "turning",
+        "hold": null,
+        "pending_turn": null,
+        "no_entry": false,
+        "stop_remaining": 0.0
+      }
+    }
+  ]
+}

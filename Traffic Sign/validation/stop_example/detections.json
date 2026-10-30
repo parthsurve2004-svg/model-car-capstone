@@ -1,0 +1,28 @@
+{
+  "model": "/workspace/model-car-capstone/Traffic Sign/models/traffic_signs_ncnn_model",
+  "source": "printable_cards/stop.png",
+  "prediction_rate_limit_hz": 4.0,
+  "frames": [
+    {
+      "frame": 0,
+      "timestamp_seconds": 0.0,
+      "fresh_prediction": true,
+      "detections": [
+        {
+          "class_name": "stop",
+          "confidence": 0.9984549283981323,
+          "bbox": [
+            103.5401382446289,
+            90.9281234741211,
+            924.0515747070312,
+            928.2980346679688
+          ],
+          "type": "traffic_sign",
+          "height_frac": 0.8177440539002419,
+          "bearing_deg": 0.10129549579756394,
+          "actionable": true
+        }
+      ]
+    }
+  ]
+}

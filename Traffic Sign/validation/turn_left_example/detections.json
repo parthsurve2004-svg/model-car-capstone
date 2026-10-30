@@ -1,0 +1,28 @@
+{
+  "model": "/workspace/model-car-capstone/Traffic Sign/models/traffic_signs_ncnn_model",
+  "source": "printable_cards/turn_left.png",
+  "prediction_rate_limit_hz": 4.0,
+  "frames": [
+    {
+      "frame": 0,
+      "timestamp_seconds": 0.0,
+      "fresh_prediction": true,
+      "detections": [
+        {
+          "class_name": "turn_left",
+          "confidence": 0.9994919300079346,
+          "bbox": [
+            102.7373046875,
+            79.66191101074219,
+            925.2081298828125,
+            941.1810302734375
+          ],
+          "type": "traffic_sign",
+          "height_frac": 0.8413272649049759,
+          "bearing_deg": 0.11127132659623892,
+          "actionable": true
+        }
+      ]
+    }
+  ]
+}

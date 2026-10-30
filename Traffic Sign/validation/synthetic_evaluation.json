@@ -1,0 +1,566 @@
+{
+  "weights": "/workspace/traffic-sign-training/runs/four_signs/weights/best.pt",
+  "confidence": 0.6,
+  "scope": "Heldout synthetic images and rendered print cards; not physical-camera validation.",
+  "cards": {
+    "no_entry_native": [
+      {
+        "class_name": "no_entry",
+        "class_id": 1,
+        "confidence": 0.9999934434890747,
+        "bbox": [
+          98.99824523925781,
+          87.2303695678711,
+          925.6251831054688,
+          935.50341796875
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "no_entry_padded": [
+      {
+        "class_name": "no_entry",
+        "class_id": 1,
+        "confidence": 0.9658169746398926,
+        "bbox": [
+          249.96109008789062,
+          170.01376342773438,
+          388.7381286621094,
+          309.5861511230469
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.998450756072998,
+        "bbox": [
+          103.5741195678711,
+          90.9374008178711,
+          924.0540771484375,
+          928.2911376953125
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_padded": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9527087211608887,
+        "bbox": [
+          251.32110595703125,
+          170.47821044921875,
+          390.0177001953125,
+          308.6296691894531
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "turn_left_native": [
+      {
+        "class_name": "turn_left",
+        "class_id": 2,
+        "confidence": 0.9994910955429077,
+        "bbox": [
+          102.74072265625,
+          79.69287109375,
+          925.2092895507812,
+          941.205078125
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "turn_left_padded": [
+      {
+        "class_name": "turn_left",
+        "class_id": 2,
+        "confidence": 0.9657830595970154,
+        "bbox": [
+          249.6487579345703,
+          169.38766479492188,
+          389.74615478515625,
+          310.5868835449219
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "turn_right_native": [
+      {
+        "class_name": "turn_right",
+        "class_id": 3,
+        "confidence": 0.9998793601989746,
+        "bbox": [
+          99.5293960571289,
+          92.4532241821289,
+          931.7933349609375,
+          938.55712890625
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "turn_right_padded": [
+      {
+        "class_name": "turn_right",
+        "class_id": 3,
+        "confidence": 0.9492017030715942,
+        "bbox": [
+          249.34133911132812,
+          169.7694091796875,
+          389.9372863769531,
+          311.124267578125
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_DejaVuSansCondensed-Bold_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9983439445495605,
+        "bbox": [
+          26.367528915405273,
+          22.4320068359375,
+          230.9984130859375,
+          232.1796112060547
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_DejaVuSansCondensed-Bold_padded": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.948395848274231,
+        "bbox": [
+          251.93992614746094,
+          171.17755126953125,
+          388.1558837890625,
+          308.43389892578125
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_DejaVuSerif-Bold_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9983899593353271,
+        "bbox": [
+          25.799022674560547,
+          22.548877716064453,
+          230.98641967773438,
+          232.41708374023438
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_DejaVuSerif-Bold_padded": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9493714570999146,
+        "bbox": [
+          251.20994567871094,
+          170.88494873046875,
+          389.90869140625,
+          308.380126953125
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_LiberationSans-Bold_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9985862970352173,
+        "bbox": [
+          26.298969268798828,
+          22.541040420532227,
+          230.992431640625,
+          232.3052520751953
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_LiberationSans-Bold_padded": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.948560893535614,
+        "bbox": [
+          252.25851440429688,
+          170.30325317382812,
+          388.9976501464844,
+          308.6324462890625
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_OpenSans-Bold_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9980108141899109,
+        "bbox": [
+          26.38128089904785,
+          22.521093368530273,
+          230.9881591796875,
+          232.29385375976562
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_OpenSans-Bold_padded": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9447451829910278,
+        "bbox": [
+          252.37213134765625,
+          170.29244995117188,
+          388.68853759765625,
+          308.49432373046875
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_OpenSans-CondBold_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.94368577003479,
+        "bbox": [
+          26.597192764282227,
+          22.506175994873047,
+          230.9529266357422,
+          232.22366333007812
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_OpenSans-CondBold_padded": []
+  },
+  "cards_postprocessed": {
+    "no_entry_native": [
+      {
+        "class_name": "no_entry",
+        "class_id": 1,
+        "confidence": 0.9999934434890747,
+        "bbox": [
+          98.99824523925781,
+          87.2303695678711,
+          925.6251831054688,
+          935.50341796875
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "no_entry_padded": [
+      {
+        "class_name": "no_entry",
+        "class_id": 1,
+        "confidence": 0.9658169746398926,
+        "bbox": [
+          249.96109008789062,
+          170.01376342773438,
+          388.7381286621094,
+          309.5861511230469
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.998450756072998,
+        "bbox": [
+          103.5741195678711,
+          90.9374008178711,
+          924.0540771484375,
+          928.2911376953125
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_padded": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9527087211608887,
+        "bbox": [
+          251.32110595703125,
+          170.47821044921875,
+          390.0177001953125,
+          308.6296691894531
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "turn_left_native": [
+      {
+        "class_name": "turn_left",
+        "class_id": 2,
+        "confidence": 0.9994910955429077,
+        "bbox": [
+          102.74072265625,
+          79.69287109375,
+          925.2092895507812,
+          941.205078125
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "turn_left_padded": [
+      {
+        "class_name": "turn_left",
+        "class_id": 2,
+        "confidence": 0.9657830595970154,
+        "bbox": [
+          249.6487579345703,
+          169.38766479492188,
+          389.74615478515625,
+          310.5868835449219
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "turn_right_native": [
+      {
+        "class_name": "turn_right",
+        "class_id": 3,
+        "confidence": 0.9998793601989746,
+        "bbox": [
+          99.5293960571289,
+          92.4532241821289,
+          931.7933349609375,
+          938.55712890625
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "turn_right_padded": [
+      {
+        "class_name": "turn_right",
+        "class_id": 3,
+        "confidence": 0.9492017030715942,
+        "bbox": [
+          249.34133911132812,
+          169.7694091796875,
+          389.9372863769531,
+          311.124267578125
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_DejaVuSansCondensed-Bold_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9983439445495605,
+        "bbox": [
+          26.367528915405273,
+          22.4320068359375,
+          230.9984130859375,
+          232.1796112060547
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_DejaVuSansCondensed-Bold_padded": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.948395848274231,
+        "bbox": [
+          251.93992614746094,
+          171.17755126953125,
+          388.1558837890625,
+          308.43389892578125
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_DejaVuSerif-Bold_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9983899593353271,
+        "bbox": [
+          25.799022674560547,
+          22.548877716064453,
+          230.98641967773438,
+          232.41708374023438
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_DejaVuSerif-Bold_padded": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9493714570999146,
+        "bbox": [
+          251.20994567871094,
+          170.88494873046875,
+          389.90869140625,
+          308.380126953125
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_LiberationSans-Bold_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9985862970352173,
+        "bbox": [
+          26.298969268798828,
+          22.541040420532227,
+          230.992431640625,
+          232.3052520751953
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_LiberationSans-Bold_padded": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.948560893535614,
+        "bbox": [
+          252.25851440429688,
+          170.30325317382812,
+          388.9976501464844,
+          308.6324462890625
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_OpenSans-Bold_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9980108141899109,
+        "bbox": [
+          26.38128089904785,
+          22.521093368530273,
+          230.9881591796875,
+          232.29385375976562
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_OpenSans-Bold_padded": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.9447451829910278,
+        "bbox": [
+          252.37213134765625,
+          170.29244995117188,
+          388.68853759765625,
+          308.49432373046875
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_OpenSans-CondBold_native": [
+      {
+        "class_name": "stop",
+        "class_id": 0,
+        "confidence": 0.94368577003479,
+        "bbox": [
+          26.597192764282227,
+          22.506175994873047,
+          230.9529266357422,
+          232.22366333007812
+        ],
+        "type": "traffic_sign"
+      }
+    ],
+    "stop_OpenSans-CondBold_padded": []
+  },
+  "test_metrics": {
+    "metrics/precision(B)": 0.9846216310515474,
+    "metrics/recall(B)": 0.9989640474144803,
+    "metrics/mAP50(B)": 0.9948571428571429,
+    "metrics/mAP50-95(B)": 0.9778296703296704,
+    "fitness": 0.9778296703296704
+  },
+  "test_per_class": {
+    "stop": {
+      "precision": 0.9713101768473692,
+      "recall": 0.9958561896579212,
+      "mAP50": 0.9944285714285714,
+      "mAP50_95": 0.9852095238095238
+    },
+    "no_entry": {
+      "precision": 0.9901436244856266,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.9637754578754579
+    },
+    "turn_left": {
+      "precision": 0.9895697581188265,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.9827934065934066
+    },
+    "turn_right": {
+      "precision": 0.9874629647543672,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.9795402930402931
+    }
+  },
+  "hard_negative_test": {
+    "images": 43,
+    "images_with_detections": 1,
+    "false_detections": [
+      {
+        "image": "00024.jpg",
+        "detections": [
+          {
+            "class_name": "stop",
+            "class_id": 0,
+            "confidence": 0.751538097858429,
+            "bbox": [
+              23.913599014282227,
+              22.967504501342773,
+              232.72647094726562,
+              233.29006958007812
+            ],
+            "type": "traffic_sign"
+          }
+        ]
+      }
+    ]
+  },
+  "hard_negative_test_postprocessed": {
+    "images": 43,
+    "images_with_detections": 1,
+    "false_detections": [
+      {
+        "image": "00024.jpg",
+        "detections": [
+          {
+            "class_name": "stop",
+            "class_id": 0,
+            "confidence": 0.751538097858429,
+            "bbox": [
+              23.913599014282227,
+              22.967504501342773,
+              232.72647094726562,
+              233.29006958007812
+            ],
+            "type": "traffic_sign"
+          }
+        ]
+      }
+    ]
+  }
+}

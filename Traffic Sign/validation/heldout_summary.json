@@ -1,0 +1,11 @@
+{
+  "best_weights": "/workspace/traffic-sign-training/runs/four_signs/weights/best.pt",
+  "test_metrics": {
+    "metrics/precision(B)": 0.9846216310515474,
+    "metrics/recall(B)": 0.9989640474144803,
+    "metrics/mAP50(B)": 0.9948571428571429,
+    "metrics/mAP50-95(B)": 0.9778296703296704,
+    "fitness": 0.9778296703296704
+  },
+  "scope": "Synthetic heldout test, NOT physical camera/road accuracy or Pi benchmark."
+}

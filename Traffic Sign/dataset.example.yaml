@@ -1,0 +1,11 @@
+# Template only. Create and annotate the image/label directories before training.
+# Set path to your actual dataset root.
+path: /absolute/path/to/traffic-sign-data
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: stop
+  1: no_entry
+  2: turn_left
+  3: turn_right
